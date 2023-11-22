@@ -2,8 +2,6 @@
 {
     public class DayZeroHelloWorldTests
     {
-        private const string HelloWorld = "Hello, World.";
-
         [Theory]
         [InlineData("Welcome to 30 Days of Code!")]
         [InlineData("Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.")]
@@ -18,7 +16,7 @@
 
             string[] args = { };
             string expected = string.Concat(
-                HelloWorld, Environment.NewLine,
+                "Hello, World.", Environment.NewLine,
                 inputString, Environment.NewLine);
 
             // Act
