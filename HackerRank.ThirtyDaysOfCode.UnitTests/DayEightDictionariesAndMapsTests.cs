@@ -1,9 +1,9 @@
 ﻿namespace HackerRank.ThirtyDaysOfCode.UnitTests
 {
-    public class DaySixLetsReviewTests
+    public class DayEightDictionariesAndMapsTests
     {
         [Theory]
-        [InlineData("2\r\nHacker\r\nRank", "Hce akr\r\nRn ak\r\n")]
+        [InlineData("3\r\nsam 99912222\r\ntom 11122222\r\nharry 12299933\r\nsam\r\nedward\r\nharry", "sam=99912222\r\nNot found\r\nharry=12299933\r\n")]
         public void Solution_Main_ShouldPrintResult_WhenInputValues(string input, string expected)
         {
             // Arrange
@@ -16,7 +16,7 @@
             string[] args = { };
 
             // Act
-            DaySixLetsReview.Solution.Main(args);
+            DayEightDictionariesAndMaps.Solution.Main(args);
 
             // Assert
             Assert.Equal(expected, writer.ToString());

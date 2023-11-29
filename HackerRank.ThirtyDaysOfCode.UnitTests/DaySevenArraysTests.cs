@@ -4,7 +4,7 @@
     {
         [Theory]
         [InlineData("4\r\n1 4 3 2", "2 3 4 1\r\n")]
-        public void Solution_Main_ShouldPrintResult_WhenInputValue(string input, string expected)
+        public void Solution_Main_ShouldPrintResult_WhenInputValues(string input, string expected)
         {
             // Arrange
             StringReader reader = new(input);
