@@ -1,6 +1,6 @@
 ﻿namespace HackerRank.ThirtyDaysOfCode.UnitTests
 {
-    public class DayNineRecursion3Tests
+    public class DayNineRecursionTests
     {
         [Theory]
         [InlineData("3", "6\r\n")]
@@ -17,7 +17,7 @@
             string[] args = { };
 
             // Act
-            DayNineRecursion3.Solution.Main(args);
+            DayNineRecursion.Solution.Main(args);
 
             // Assert
             Assert.Equal(expected, writer.ToString());

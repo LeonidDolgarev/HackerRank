@@ -1,6 +1,6 @@
 ﻿namespace HackerRank.ThirtyDaysOfCode
 {
-    public sealed class DayNineRecursion3
+    public sealed class DayNineRecursion
     {
         public sealed class Result
         {
